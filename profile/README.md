@@ -19,6 +19,17 @@ flowchart LR
     d --> e
 ```
 
+### 이용 흐름
+
+```mermaid
+sequenceDiagram
+    participant U as 사용자
+    participant A as Orient AI
+    U->>A: 생년월일 등 정보 입력
+    A->>A: 주역·사주 분석
+    A->>U: 상담 결과 응답
+```
+
 ## 이런 분께 추천합니다
 
 - 주역·사주에 관심 있지만 어디서부터 봐야 할지 막막한 분
