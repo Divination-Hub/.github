@@ -1,12 +1,12 @@
-# Prism — 사주 · 주역 · 타로 · 룬 · 점성술 AI 협의체
+# Fivelight — 사주 · 주역 · 타로 · 룬 · 점성술 AI 협의체
 
-- 웹사이트: [prism.sanglimsoft.com](https://prism.sanglimsoft.com/)
+- 웹사이트: [fivelight.sanglimsoft.com](https://fivelight.sanglimsoft.com/)
 - App Store: [apps.apple.com](https://apps.apple.com/kr/app/orient-%EC%A3%BC%EC%97%AD-%EC%82%AC%EC%A3%BC-%ED%95%B4%EB%AA%BD/id6762338193)
 - Google Play: [play.google.com](https://play.google.com/store/apps/details?id=com.orient.divination&hl=ko)
-- 개인정보처리방침: [prism.sanglimsoft.com/privacy.html](https://prism.sanglimsoft.com/privacy.html)
-- 고객지원: [prism.sanglimsoft.com/support.html](https://prism.sanglimsoft.com/support.html)
+- 개인정보처리방침: [fivelight.sanglimsoft.com/privacy](https://fivelight.sanglimsoft.com/privacy)
+- 고객지원: [fivelight.sanglimsoft.com/support](https://fivelight.sanglimsoft.com/support)
 
-**Prism**은 사주·주역·타로·룬·점성술 다섯 관점이 하나의 질문에 함께 답하는 AI 협의체(council) 상담 앱입니다. 주역·타로·룬은 항상 실행되고, 생년월일을 입력하면 사주·점성술까지 추가로 참여해 최대 5관점이 종합 결론을 제시합니다.
+**Fivelight**는 사주·주역·타로·룬·점성술 다섯 관점이 하나의 질문에 함께 답하는 AI 협의체(council) 상담 앱입니다. 주역·타로·룬은 항상 실행되고, 생년월일을 입력하면 사주·점성술까지 추가로 참여해 최대 5관점이 종합 결론을 제시합니다.
 
 ## 어떻게 동작하나요
 
@@ -29,7 +29,7 @@ flowchart LR
 ```mermaid
 sequenceDiagram
     participant U as 사용자
-    participant P as Prism AI 협의체
+    participant P as Fivelight AI 협의체
     U->>P: 질문 (+ 선택: 생년월일)
     P->>P: 관점별 병렬 분석 (사주·주역·타로·룬·점성술)
     P->>U: 관점별 응답 + 종합 결론
